@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<sitemodel>
+<pages>
+	<page name="LoginPage">
+		<element Key="LoginUserName">
+			<searchby>id</searchby>
+			<value>j_username</value>
+		</element>
+		<element Key="LoginPassword">
+			<searchby>id</searchby>
+			<value>j_password</value>
+		</element>
+		<element Key="LoginButton">
+			<searchby>id</searchby>
+			<value>authenticationform-submit</value>
+		</element>
+	</page>
+	<page name="HomePage">
+		<element Key="SignIn">
+			<searchby>id</searchby>
+			<value>signInLink</value>
+		</element>
+		<element Key="LogOff">
+			<searchby>id</searchby>
+			<value>registerLink</value>
+		</element>
+		<element Key="BulkPadAddToCart">
+			<searchby>id</searchby>
+			<value>bulkOrderModelAddToCart</value>
+		</element>
+		<element Key="BulkOrderPad">
+			<searchby>id</searchby>
+			<value>show-bulk-order-link</value>
+		</element>
+		<element Key="BulkOrderPadElementsPath">
+			<searchby>xpath</searchby>
+			<value>//form[@id="bulkorderSingleAddForm"]/fieldset/input[contains(@id,'Item')]</value>
+		</element>
+		<element Key="BulkOrderPadElementsQtyPath">
+			<searchby>xpath</searchby>
+			<value>//form[@id="bulkorderSingleAddForm"]/fieldset/input[contains(@id,'Quantity')]</value>
+		</element>
+	</page>
+	<page name="AddToCartModel">
+		<element Key="CartModel">
+			<searchby>id</searchby>
+			<value>bulkOrderModelAddToCart</value>
+		</element>
+		<element Key="ViewCart">
+			<searchby>id</searchby>
+			<value>GoToCart</value>
+		</element>
+	</page>
+	<page name="CartPage">
+		<element Key="CartPageHeader">
+			<searchby>id</searchby>
+			<value>pageHeader</value>
+		</element>
+		<element Key="CheckOut">
+			<searchby>plink</searchby>
+			<value>Proceed</value>
+		</element>
+	</page>
+	<page name="ReviewPage">
+		<element Key="ReviewPageHeader">
+			<searchby>class</searchby>
+			<value>orderWebNum</value>
+		</element>
+		<element Key="SubmitOrder">
+			<searchby>plink</searchby>
+			<value>Submit</value>
+		</element>
+	</page>
+	<page name="OrderCPage">
+		<element Key="OrderCPageHeader">
+			<searchby>class</searchby>
+			<value>orderWeb</value>
+		</element>
+	</page>
+	<page name="FeedBackModel">
+		<element Key="FeedbackModelHeader">
+			<searchby>class</searchby>
+			<value>fsrFloatingMid</value>
+		</element>
+		<element Key="FeedbackCancelBtn">
+			<searchby>link</searchby>
+			<value>No, thanks</value>
+		</element>
+	</page>
+</pages>
+</sitemodel>
+
+

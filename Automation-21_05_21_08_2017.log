@@ -1,0 +1,22 @@
+2017-08-21 21:05:33,355 - AutomationAgent - INFO - Initiating web driver for browser: IE
+2017-08-21 21:05:36,528 - AutomationAgent - INFO -  ***** Initializing testcase: test_aCanGoToHomePage *****
+2017-08-21 21:05:36,540 - AutomationAgent - INFO - WebSite is loaded successfully
+2017-08-21 21:05:36,540 - AutomationAgent - INFO -  ***** Finished test_aCanGoToHomePage Execution *****
+2017-08-21 21:05:36,542 - AutomationAgent - INFO -  ******* TestCase Status: Passed ******* 
+2017-08-21 21:05:36,543 - AutomationAgent - INFO -  ***** Initializing testcase: test_bCanLogIn *****
+2017-08-21 21:05:40,489 - AutomationAgent - INFO - Element SignIn is not present on the HomePage
+2017-08-21 21:05:40,489 - AutomationAgent - INFO -  ***** Finished test_bCanLogIn Execution *****
+2017-08-21 21:05:40,491 - AutomationAgent - INFO -  ******* TestCase Status: Failed ******* 
+2017-08-21 21:05:40,491 - AutomationAgent - INFO - test_cCanBulkOrderPad Skipped, Reason:Dependent Test Failed
+2017-08-21 21:05:40,493 - AutomationAgent - INFO - test_dAnnonymousBulkOrderPad Skipped, Reason:Dependent Test Failed
+2017-08-21 21:06:03,407 - AutomationAgent - INFO - Initiating web driver for browser: IE
+2017-08-21 21:06:06,398 - AutomationAgent - INFO -  ***** Initializing testcase: test_aCanGoToHomePage *****
+2017-08-21 21:06:06,411 - AutomationAgent - INFO - WebSite is loaded successfully
+2017-08-21 21:06:06,411 - AutomationAgent - INFO -  ***** Finished test_aCanGoToHomePage Execution *****
+2017-08-21 21:06:06,413 - AutomationAgent - INFO -  ******* TestCase Status: Passed ******* 
+2017-08-21 21:06:06,413 - AutomationAgent - INFO -  ***** Initializing testcase: test_bCanLogIn *****
+2017-08-21 21:06:10,289 - AutomationAgent - INFO - Element SignIn is not present on the HomePage
+2017-08-21 21:06:10,289 - AutomationAgent - INFO -  ***** Finished test_bCanLogIn Execution *****
+2017-08-21 21:06:10,291 - AutomationAgent - INFO -  ******* TestCase Status: Failed ******* 
+2017-08-21 21:06:10,292 - AutomationAgent - INFO - test_cCanBulkOrderPad Skipped, Reason:Dependent Test Failed
+2017-08-21 21:06:10,293 - AutomationAgent - INFO - test_dAnnonymousBulkOrderPad Skipped, Reason:Dependent Test Failed
