@@ -1,17 +1,3 @@
-# ToDO#1: (Done): Bilal to make a separate function for to find elements based on a locator
-# ToDO#2: (Done): Bilal to make a single function for all locators
-# ToDO#3: (Done): Bilal to remove find elements from Home Page
-# ToDO#4: (Done): Bilal to write a check for popup window
-# ToDO#5: (Done): Bilal to check how to fail a test
-# ToDO#6(a): (Done):  Bilal to make separate file for constants and get rid of App.config and Appconfig.py
-# ToDO#6(b): (Done): Bilal to make one file for email & password
-# ToDO#7: Bilal to run suite from python power shell
-# ToDO#8: : Bilal to Write __init__ function to reinitialize keys in ResultLog
-# ToDO#9: Bilal to write custom exception class
-# ToDO#10: (Done) Bilal to move Log files from test to Lib folder
-# ToDO#11: Bilal to make coloredFormatter work
-# ToDO#12: Build proper test Suite
-
 from selenium.common.exceptions import *
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -104,56 +90,3 @@ class PageLocators(object):
             return True
         else:
             return False
-
-
-
-
-
-
-            # ******************************************************************************************************************
-            #                                       Form element ids
-            # ******************************************************************************************************************
-
-            # @staticmethod
-            # def FormElementIds(pgnameattr, elekeystr):
-            #     formPath = SiteElement.getSearchValue(pgnameattr, elekeystr)
-            #     if not formPath:
-            #         return False
-            #     else:
-            #         try:
-            #             return Web.driver.find_elements_by_xpath(formPath)
-            #         except Exception as e:
-            #             Logger.logr.info("Unable to locate form elements from a given path")
-            #             Logger.logr.exception("Exception!")
-            #             # ***********************************  Creating Ids List *******************************************************
-            #             # else:
-            #             #     itemList = []
-            #             #     for i in formIds:
-            #             #         itemList.append(i.get_attribute('id'))
-            #             #     return itemList
-
-
-
-
-
-
-
-
-            # x = PageElements()
-            # x.IsElementPresent("HomePage", "SignIn")
-
-
-            #   def __set__(self, obj, value):
-            #       driver = obj.driver
-            #       WebDriverWait(driver, 10).until(
-            #           lambda driver: driver.find_element_by_name(self.locator).is_displayed())
-            #       driver.find_element_by_name(self.locator).send_keys(value)
-
-            #    def __get__(self, obj, owner):
-            #       """Gets the text of the specified object"""
-            #      webelement = self.web_element
-            #     driver = obj.driver
-            #    WebDriverWait(driver, 100).until(
-            #       lambda driver: driver.find_element_by_id(webelement.getSearchBy("LoginPage", "LoginUserName")))
-            #  element = driver.find_element_by_id(webelement.getSearchValue("LoginPage", "LoginUserName"))
-            # return element.get_attribute("value")
